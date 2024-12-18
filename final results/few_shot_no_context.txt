@@ -1,0 +1,11 @@
+Accuracy: 0.96
+Precision: 0.96
+Recall: 0.96
+
+Incorrect Predictions:
+                                                 text sentiment predicted_sentiment
+41  "Night of the Hunted" stars French porn star B...  positive            negative
+42  Even if you're a fan of Jean Rollin's idiosync...  positive            negative
+Ground truth labels (sentiment): ['negative' 'positive']
+Predicted labels (GPT4All): ['negative' 'positive' 'unexpected']
+Time: 304.84793051166673 minutes

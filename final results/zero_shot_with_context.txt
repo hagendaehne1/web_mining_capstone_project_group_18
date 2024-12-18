@@ -1,0 +1,11 @@
+Accuracy: 0.96
+Precision: 0.98
+Recall: 0.96
+
+Incorrect Predictions:
+                                                 text sentiment predicted_sentiment
+31  Maybe I'm reading into this too much, but I wo...  positive            neutral
+41  "Night of the Hunted" stars French porn star B...  positive            negative
+Ground truth labels (sentiment): ['negative' 'positive']
+Predicted labels (GPT4All): ['negative' 'positive' 'unexpected']
+Time: 88.37211841333331 minutes

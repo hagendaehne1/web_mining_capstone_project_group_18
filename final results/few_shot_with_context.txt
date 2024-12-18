@@ -1,0 +1,11 @@
+Accuracy: 0.96
+Precision: 0.96
+Recall: 0.96
+
+Incorrect Predictions:
+                                                 text sentiment predicted_sentiment
+17  Earth has been destroyed in a nuclear holocaus...  negative            positive
+41  "Night of the Hunted" stars French porn star B...  positive            negative
+Ground truth labels (sentiment): ['negative' 'positive']
+Predicted labels (GPT4All): ['negative' 'positive' 'unexpected']
+Time: 302.98105382833336 minutes
